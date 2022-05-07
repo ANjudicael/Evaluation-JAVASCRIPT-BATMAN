@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(/Illustrations/Home/Bathome1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 5rem;
+    padding-bottom: 60%;
+}
+header nav.barre-contenue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.barre-contenue a{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    font-size: 25px;
+}
+nav.barre-contenue a:hover{
+    text-decoration: underline;
+}
+
+div.partie-1 p,h4{
+    color: #fff;
+    font-size: large;
+}
+div.partie-1 p{
+    inline-size: 700px;
+    padding-left: 10%;
+}
+div.partie-1 {
+    padding-top: 20%;
+    text-align: center;
+}
+div.partie-1 button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: none;
+    border: none;
+    background-color: rgba(250, 66, 66, 0.459);
+}
+div.partie-1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+div.partie-vertical-droite {
+    display: flex;
+    justify-content: right;
+    
+}
+/* main */
+main{
+    background-color: black;
+}
+section.dsc-bat {
+    background-color: black;
+}
+div.flèche-bas{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10%;
+}
+div.dsc-batman h3,p{
+    color: #fff;
+    inline-size: 900px;
+    margin-left: 15%;
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+}
+div.batman-img {
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+div.batman-img img{
+    margin: 10px;
+}
+
+section.Nemesis{
+    background-color: black;
+}
+div.txt-nemesis p{
+    color: #fff;
+
+}
+div.txt-nemesis h3{
+    color: #fff;
+    padding-left: 16%;
+    padding-top: 5%;
+}
+div.nemesis-img{
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;  
+}
+div.nemesis-img img{
+    margin: 10px;
+}
+
+h3.media-txt{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 14%;
+    padding-bottom: 5%;
+}
+div.Multimédia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+div.petite-texte h5{
+    color: #fff;
+}
+div.petite-texte p{
+    inline-size: 500px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 10px 0 0 0;
+}
+div.petite-texte{
+    background-color: #5079914f;
+}
+div.petite-texte span{
+    color: yellow;
+}
+div.contexte{
+    display: flex;
+    justify-content: center; 
+}
+
+section.bande{
+    padding: 10%;
+}
+
+section.formulaire{
+    background-color: #abbac4dc;
+    padding-bottom: 20%;
+    color: #fff;
+}
+div.contenue-form {
+   margin-left: 5%;
+   padding-top: 10%; 
+}
+div.contenue-form h2{
+    text-align: center;
+    margin-left: 0%;
+    padding: 10%;
+}
+
+
+/* pieds du page */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10%;
+}
+footer div.guillet1{
+    text-align: left;
+    padding: 5%;
+}
+footer div.guillet2{
+    text-align: right;
+    padding: 5%;
+}
+div.citation p{
+    text-align: center;
+}
+footer div.mini-logo {
+    align-items: center;
+    text-align: center;
+}
+div.mini-logo img {
+    margin: 10px;
+    padding-top: 40px;
+}
